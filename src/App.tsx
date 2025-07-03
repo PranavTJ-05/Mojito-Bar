@@ -1,21 +1,28 @@
-import React from 'react';
-import './index.css';
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-import { ScrollTrigger, SplitText } from "gsap/all";
 import gsap from 'gsap';
-import Navbar from './components/Navbar';
-import Hero from './components/Hero';
+import { ScrollTrigger, SplitText } from "gsap/all";
 
+import Navbar from './components/Navbar.tsx'
+import Hero from './components/Hero.tsx'
+import Cocktails from './components/Cocktails.tsx'
+import About from './components/About.tsx'
+import Art from './components/Art.tsx'
+import Menu from './components/Menu.tsx'
+import Contact from './components/Contact.tsx'
 
 gsap.registerPlugin(ScrollTrigger, SplitText);
-function App() {
 
-  return (
-    <main>
-      <Navbar />
-      <Hero />
-    </main>
-  )
+const App = () => {
+ return (
+	<main>
+	 <Navbar />
+	 <Hero />
+	 <Cocktails />
+	 <About />
+	 <Art />
+	 <Menu />
+	 <Contact />
+	</main>
+ )
 }
 
 export default App

@@ -77,7 +77,7 @@ const Hero = () => {
  return (
 	<>
 	 <section id="hero" className="noisy">
-		<h1 className="title opacity-50">MOJITO</h1>
+		<h1 className="title opacity-50">MOJITO Bar</h1>
 		
 		<img
 		 src="/images/hero-left-leaf.png"
@@ -95,7 +95,7 @@ const Hero = () => {
 		 
 		 <div className="content">
 			<div className="space-y-5 hidden md:block">
-			 <p>Cool. Crisp. Classic.</p>
+			 <p>Cool. Crisp. Refresing.</p>
 			 <p className="subtitle">
 				Sip the Spirit <br /> of Summer
 			 </p>
